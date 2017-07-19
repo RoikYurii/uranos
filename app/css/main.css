@@ -130,15 +130,15 @@ a {
             align-items: baseline;
     font-weight: 500; }
     .header-logo__title {
-      font-size: 2.6em;
+      font-size: 2.4em;
       color: #ffffff;
       text-transform: uppercase;
       margin-right: 0.1em; }
     .header-logo__text {
-      font-size: 1.3em;
+      font-size: 1.2em;
       color: #080e17;
       text-transform: uppercase;
-      padding: 0.3rem 0.55rem;
+      padding: 0.25rem 0.48rem;
       background: #ffd800;
       -webkit-border-radius: 0.2em;
               border-radius: 0.2em; }
@@ -378,9 +378,9 @@ a {
     text-align: center;
     color: #ffffff;
     margin-bottom: 0.6em;
-    max-width: 13em;
+    max-width: 12.4em;
     font-weight: 100;
-    letter-spacing: -0.025em; }
+    letter-spacing: -0.04em; }
     .start__title span {
       font-weight: 500; }
 
