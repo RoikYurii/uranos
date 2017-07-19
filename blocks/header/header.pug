@@ -1,0 +1,17 @@
+mixin header(items)
+  +b.HEADER.header
+    +e.DIV.container
+      +e.A.logo(href="#")
+        +b.DIV.header-logo
+          +e.H3.title Uranos
+          +e.SPAN.text Psd
+      +e.DIV.nav
+        +b.NAV.header-nav
+          each item in items
+            //- +e.DIV.item
+            +e.A.link(href=item.href)= item.text
+        +b.DIV.header-nav-hamburger
+          +e.SPAN
+          +e.SPAN
+          +e.SPAN
+    

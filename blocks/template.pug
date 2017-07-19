@@ -1,0 +1,61 @@
+include _assets/bemto/bemto
+- set_bemto_settings({ modifier: "--" })
+
+include head/head
+include header/header
+include start/start
+
+doctype html
+html(lang="en")
+
+	block head
+		head
+			+head({
+				"title": "Uranos",
+				"author": "Roik Yurii"
+			})
+			
+		+b.BODY.page
+				block header
+					+header([
+						{
+							"text": "Home",
+							"href": "#home"
+						},
+						{
+							"text": "About us",
+							"href": "#about"
+						},
+						{
+							"text": "Our Team",
+							"href": "#team"
+						},
+						{
+							"text": "Portfolio",
+							"href": "#portfolio"
+						},
+						{
+							"text": "Contact",
+							"href": "#contact"
+						},
+					])
+					
+					block start
+						+start()
+
+
+				block vendors
+					// build:js js/vendor.js
+					script( src="js/jquery.min.js")
+					// endbuild
+				
+				block scripts
+					// build:js js/main.js
+					script( src="js/main.js")
+					// endbuild
+
+	
+	
+	
+	
+	
