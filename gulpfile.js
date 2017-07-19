@@ -6,6 +6,7 @@ var gulp = require('gulp'),
 	  concat = require('gulp-concat'),
 	  plumber = require('gulp-plumber'),
 	  prefix = require('gulp-autoprefixer'),
+    imagemin = require('gulp-imagemin'),
    	browserSync = require('browser-sync').create();
 
 var useref = require('gulp-useref'),
