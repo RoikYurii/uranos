@@ -1,0 +1,1 @@
+!function(e){e(".header-nav-hamburger").click(function(a){e(".header-nav").toggleClass("header-nav--active"),e(".header-nav-hamburger").toggleClass("header-nav-hamburger--active"),a.preventDefault()})}(jQuery);
