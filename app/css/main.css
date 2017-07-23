@@ -465,6 +465,10 @@ a {
 @media (min-width: 1024px) {
   .start-form__btn {
     max-width: 10em; } }
+
+@media (min-width: 1024px) {
+  .start-form__btn {
+    margin-bottom: 0; } }
       .start-form__btn::before {
         content: "";
         position: absolute;
