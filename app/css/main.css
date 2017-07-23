@@ -368,7 +368,8 @@ a {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     padding-top: 5.6em; }
@@ -458,7 +459,8 @@ a {
       -webkit-transition: .3s;
       -o-transition: .3s;
       transition: .3s;
-      overflow: hidden; }
+      overflow: hidden;
+      margin-bottom: 1em; }
 
 @media (min-width: 1024px) {
   .start-form__btn {
